@@ -22,8 +22,6 @@ jobs:
 
     - name: Commit and Push Changes
       run: |
-        git config --local user.email "2912935774@qq.com"
-        git config --local user.name "mitergpt"
         git add record.txt
         git commit -m "Record commit details"
         git push origin main
