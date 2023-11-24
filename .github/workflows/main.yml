@@ -1,3 +1,7 @@
+on:
+  push:
+    branches:
+      - main
 jobs:
   record_commit_details:
     runs-on: ubuntu-latest
